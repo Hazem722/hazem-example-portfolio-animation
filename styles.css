@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lobster", cursive;
+  background-color: #69d31d;
+  color: white;
+}
+
+.sky {
+  overflow-x: hidden;
+  position: relative;
+  background-image: linear-gradient(#f3badb, #f6d19c);
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.sky img {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+#cloud-one {
+  width: 20%;
+}
+
+#cloud-two {
+  width: 25%;
+}
+
+#cloud-three {
+  width: 30%;
+}
+
+#cloud-four {
+  width: 24%;
+
+  margin-right: 40%;
+}
+
+#cloud-five {
+  width: 23%;
+}
+#javascript {
+  width: 5%;
+  bottom: 30%;
+}
+
+#react {
+  width: 5%;
+  bottom: 30%;
+}
+
+#graphql {
+  width: 5%;
+  bottom: 30%;
+}
+
+#air-balloon {
+  width: 10%;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.about-me {
+  height: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me h1,
+.projects h2 {
+  font-size: 60px;
+  text-align: center;
+}
+.about-me h1 span,
+.projects h2 span {
+  color: red;
+}
+.about-me p {
+  font-size: 1.5rem;
+  line-height: 1.3em;
+}
+#some-projects {
+  display: flex;
+  justify-content: center;
+}
+.projects {
+  background-image: linear-gradient(#f3badb, #f6d19c);
+  padding: 20px 0;
+}
+
+#some-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+#some-projects .project {
+  width: 400px;
+  border: 3px solid #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+#some-projects .project h3 {
+  text-align: center;
+  color: #69d31d;
+}
+#some-projects .project .spans {
+  display: flex;
+  justify-content: space-between;
+}
+.project .links {
+  display: flex;
+  justify-content: center;
+}
+#some-projects .project a {
+  border: 1px solid;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #69d31d;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#some-projects .project a:hover {
+  background-color: #69d31d;
+  color: #fff;
+}
+#some-projects .project a:first-of-type {
+  margin-right: 5px;
+}
